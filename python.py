@@ -42,6 +42,6 @@ while True:
         print("Invalid choice")
         continue
     
-    # Print the sorted list
+    # Print the sorted lists
     for employee in sorted_list:
         print(f"Id: {employee.Id}, Name: {employee.Name}, Age: {employee.Age}, Salary: {employee.Salary}")
